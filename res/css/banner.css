@@ -1,13 +1,3 @@
-/*
-
-  ShowCase - Image widget to Slideshow Gallery
-  
-  CSS ini khusus untuk dhocnet.work, tapi jika kalian
-  bisa menggunakannya, maka gunakanlah.
-
-*/
-
-
 #BannerContainer {
   width: 90%;
   height: 230px;
@@ -23,40 +13,30 @@
   height: 100%;
 }
 
-#PosterTop img {
+#PosterTop div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade infinite; /* Animasi tanpa durasi tetap */
+}
+
+#PosterTop div img {
   width: 100%; /* Gambar memenuhi 100% lebar dari #BannerContainer */
   height: 100%;
   object-fit: cover;
-  opacity: 0;
-  animation: fade 6s infinite;
 }
 
-#PosterTop div:nth-child(1) img {
-  animation-delay: 0s;
-}
-#PosterTop div:nth-child(2) img {
-  animation-delay: 6s;
-}
-#PosterTop div:nth-child(3) img {
-  animation-delay: 12s;
-}
-#PosterTop div:nth-child(4) img {
-  animation-delay: 18s;
-}
-#PosterTop div:nth-child(5) img {
-  animation-delay: 24s;
-}
-
+/* Animasi dengan durasi berdasarkan jumlah gambar */
 @keyframes fade {
   0% {
     opacity: 0;
   }
   8.33% {
-    opacity: 1; /* Fade in selama 0.5 detik (8.33% dari 6 detik total) */
+    opacity: 1; /* Fade in selama 0.5 detik */
   }
   83.33% {
     opacity: 1; /* Gambar tampil penuh selama 5 detik */
