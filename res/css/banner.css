@@ -8,14 +8,14 @@
 /* Gaya untuk desktop */
 @media screen and (min-width: 768px) {
   #BannerContainer {
-    height: 270px;
+    height: 300px;
   }
 }
 
 /* Gaya untuk mobile */
 @media screen and (max-width: 767px) {
   #BannerContainer {
-    height: 190px;
+    height: 250px;
   }
 }
 
