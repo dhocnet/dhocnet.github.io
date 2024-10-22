@@ -1,7 +1,6 @@
 #BannerContainer {
-  width: 90%;
+  width: 95%; /* Lebar #BannerContainer 95% */
   height: 230px;
-  padding: 0;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -16,40 +15,51 @@
 #PosterTop div {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 100%; /* Mulai dari luar sisi kanan */
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   opacity: 0;
-  animation: fade infinite; /* Animasi tanpa durasi tetap */
+  transition: transform 0.5s ease, opacity 0.5s;
 }
 
 #PosterTop div img {
-  width: 100%; /* Gambar memenuhi 100% lebar dari #BannerContainer */
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Animasi dengan durasi berdasarkan jumlah gambar */
-@keyframes fade {
+@keyframes slideInRight {
   0% {
+    transform: translateX(100%);
     opacity: 0;
   }
-  8.33% {
-    opacity: 1; /* Fade in selama 0.5 detik */
-  }
-  83.33% {
-    opacity: 1; /* Gambar tampil penuh selama 5 detik */
-  }
-  91.66% {
-    opacity: 0; /* Fade out selama 0.5 detik */
+  80% {
+    transform: translateX(-10%);
+    opacity: 1;
   }
   100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(10%);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(100%);
     opacity: 0;
   }
 }
 
-/* Responsive for mobile */
+/* Responsive untuk mobile */
 @media screen and (max-width: 768px) {
   #BannerContainer {
     height: 170px;
