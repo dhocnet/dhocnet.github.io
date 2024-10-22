@@ -1,24 +1,24 @@
-/* Gaya umum untuk BannerContainer */
+/* Gaya umum untuk BannerContainer
 #BannerContainer {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-/* Gaya untuk desktop */
+/* Gaya untuk desktop
 @media screen and (min-width: 768px) {
   #BannerContainer {
     height: 300px;
   }
 }
 
-/* Gaya untuk mobile */
+/* Gaya untuk mobile
 @media screen and (max-width: 767px) {
   #BannerContainer {
     height: 250px;
   }
 }
-
+*/
 
 .ESlider
 {
