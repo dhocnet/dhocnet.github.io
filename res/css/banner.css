@@ -28,44 +28,45 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100%; /* Gambar memenuhi 100% lebar dari #BannerContainer */
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  animation: fade 35s infinite;
+  animation: fade 6s infinite;
 }
 
 #PosterTop div:nth-child(1) img {
   animation-delay: 0s;
 }
 #PosterTop div:nth-child(2) img {
-  animation-delay: 7s;
+  animation-delay: 6s;
 }
 #PosterTop div:nth-child(3) img {
-  animation-delay: 14s;
+  animation-delay: 12s;
 }
 #PosterTop div:nth-child(4) img {
-  animation-delay: 21s;
+  animation-delay: 18s;
 }
 #PosterTop div:nth-child(5) img {
-  animation-delay: 28s;
+  animation-delay: 24s;
 }
 
 @keyframes fade {
   0% {
     opacity: 0;
   }
-  14.28% {
-    opacity: 1;
+  8.33% {
+    opacity: 1; /* Fade in selama 0.5 detik (8.33% dari 6 detik total) */
   }
-  28.57% {
-    opacity: 1;
+  83.33% {
+    opacity: 1; /* Gambar tampil penuh selama 5 detik */
   }
-  42.85% {
-    opacity: 0;
+  91.66% {
+    opacity: 0; /* Fade out selama 0.5 detik */
   }
   100% {
     opacity: 0;
+  }
 }
 
 /* Responsive for mobile */
