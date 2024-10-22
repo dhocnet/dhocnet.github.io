@@ -17,12 +17,6 @@
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
-  #BannerContainer {
-    height: 190px;
-  }
-}
-
 /* Slideshow container */
 #PosterTop {
   display: flex;
@@ -32,7 +26,7 @@
 }
 
 #PosterTop > div {
-  width: 16.66%; /* 1/6 of the width for 6 images */
+  width: 15.55%; /* 1/6 of the width for 6 images */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,10 +42,16 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  #BannerContainer {
+    height: 190px;
+  }
+}
+
 /* Keyframes for slideshow animation */
 @keyframes slide {
   0% { transform: translateX(0%); }
-  16.66% { transform: translateX(0%); }
+  15.55% { transform: translateX(0%); }
   33.32% { transform: translateX(-100%); }
   49.98% { transform: translateX(-100%); }
   66.64% { transform: translateX(-200%); }
