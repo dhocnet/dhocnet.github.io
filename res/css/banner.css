@@ -1,0 +1,60 @@
+/*
+
+  ShowCase - Image widget to Slideshow Gallery
+  
+  CSS ini khusus untuk dhocnet.work, tapi jika kalian
+  bisa menggunakannya, maka gunakanlah.
+
+*/
+
+/* Style Banner Container */
+#BannerContainer {
+  width: 100%;
+  max-width: 1200px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #BannerContainer {
+    height: 190px;
+  }
+}
+
+/* Slideshow container */
+#PosterTop {
+  display: flex;
+  height: 100%;
+  width: 600%;
+  animation: slide 18s infinite;
+}
+
+#PosterTop > div {
+  width: 16.66%; /* 1/6 of the width for 6 images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image properties */
+#PosterTop img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+/* Keyframes for slideshow animation */
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  16.66% { transform: translateX(0%); }
+  33.32% { transform: translateX(-100%); }
+  49.98% { transform: translateX(-100%); }
+  66.64% { transform: translateX(-200%); }
+  83.3% { transform: translateX(-300%); }
+  100% { transform: translateX(0); }
+}
