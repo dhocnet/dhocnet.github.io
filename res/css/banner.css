@@ -14,9 +14,8 @@
 
 #PosterTop div {
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 100%; /* Mulai dari luar sisi kanan */
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -24,9 +23,9 @@
 }
 
 #PosterTop div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* Lebar gambar 100% dari container */
+  height: 100%; /* Tinggi gambar menyesuaikan container */
+  object-fit: cover; /* Menjaga proporsi gambar */
 }
 
 @keyframes slideInRight {
