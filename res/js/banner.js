@@ -16,7 +16,7 @@ window.onload = function() {
     posterTop.removeChild(posterTop.firstChild);
   }
 
-  var slider = new ESlider("#PosterTop", ...imageUrls);
+  var slider = new ESlider("PosterTop", ...imageUrls);
 }
 
 /* 
