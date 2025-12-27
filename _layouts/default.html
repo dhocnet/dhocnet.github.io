@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
 
-<body class="w3-monospace" style="font-size: 1.5em">
-  <header>
-    <h1><a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a></h1>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }}</p>
-  </footer>
-</body>
+        <style>
+            body {
+                font-family: Consolas, "Courier New", monospace;
+                background-color: #0A1926;
+                color: #D4CFAB;
+                font-size: 1.2em;
+                line-heigh: 1.1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="w3-container">
+            <header>
+                <h1>
+                    <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
+                </h1>
+            </header>
+        </div>
+
+        <div class="w3-container">
+            <main>
+                {{ content }}
+            </main>
+        </div>
+
+        <div class="w3-container">
+            <footer>
+                <p>
+                    &copy; {{ site.time | date: "%Y" }}
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>
