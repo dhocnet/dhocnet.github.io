@@ -9,19 +9,17 @@
             body {
                 background-color: #0A1926;
                 color: #D4CFAB;
-                font-size: 2.5em;
-                line-heigh: 1.5em;
-                font-family: "Courier New", monospace;
+                font-size: 1.9em;
+                line-heigh: 1.2em;
+                font-family: "Courier New";
             }
 
-            .dhocnet-main-header {
+            .dhocnet-main-header, .dhocnet-footer {
+                display: block;
                 margin: 0;
                 padding: 0;
                 background-color: #13292B;
-            }
-
-            .dhocnet-main-header header h1 {
-                text-align: center;
+                content-align: center;
             }
 
             .dhocnet-main-header header h1 a, .dhocnet-main-header header h1 a:hover, .dhocnet-main-header header h1 a:visited {
@@ -29,8 +27,6 @@
                 text-decoration: none;
                 padding: 25px auto;
             }
-
-            
         </style>
     </head>
 
@@ -43,7 +39,7 @@
             </header>
         </div>
 
-        <div class="w3-container" id="dhocnet-main-content>
+        <div class="w3-container w3-margin" id="dhocnet-main-content>
             <main>
                 {{ content }}
             </main>
