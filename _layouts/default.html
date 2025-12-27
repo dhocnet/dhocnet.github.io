@@ -5,19 +5,37 @@
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
 
-        <style>
+        <style type="text/css">
             body {
-                font-family: Consolas, "Courier New", monospace;
                 background-color: #0A1926;
                 color: #D4CFAB;
-                font-size: 1.2em;
-                line-heigh: 1.1em;
+                font-size: 2.5em;
+                line-heigh: 1.5em;
+                font-family: "Courier New", monospace;
             }
+
+            .dhocnet-main-header {
+                margin: 0;
+                padding: 0;
+                background-color: #13292B;
+            }
+
+            .dhocnet-main-header header h1 {
+                text-align: center;
+            }
+
+            .dhocnet-main-header header h1 a, .dhocnet-main-header header h1 a:hover, .dhocnet-main-header header h1 a:visited {
+                color: #23D8E8;
+                text-decoration: none;
+                padding: 25px auto;
+            }
+
+            
         </style>
     </head>
 
     <body>
-        <div class="w3-container">
+        <div class="w3-container" id="dhocnet-main-header">
             <header>
                 <h1>
                     <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
@@ -25,13 +43,13 @@
             </header>
         </div>
 
-        <div class="w3-container">
+        <div class="w3-container" id="dhocnet-main-content>
             <main>
                 {{ content }}
             </main>
         </div>
 
-        <div class="w3-container">
+        <div class="w3-container" id="dhocnet-footer">
             <footer>
                 <p>
                     &copy; {{ site.time | date: "%Y" }}
