@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="w3-container">
+  <!-- Panel Home -->
+  <section class="home-panel">
+    <h2>Selamat Datang di DHOCNETwork HUB</h2>
+    <p>DHOCNETwork HUB adalah saluran yang berisi catatan riwayat minguan tentang konten yang diterbitkan di berbagai kanal yang dikelola oleh DHOCNETwork.</p>
+  </section>
+
+  <!-- Panel Post -->
+  <section class="post-panel">
+    <h2>Riwayat Terbaru</h2>
+    <ul>
+      {% for post in site.posts limit:2 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

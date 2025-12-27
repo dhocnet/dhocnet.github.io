@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+</head>
+<body>
+  <header>
+    <h1><a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a></h1>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }}</p>
+  </footer>
+</body>
+</html>
