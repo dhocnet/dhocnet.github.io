@@ -17,15 +17,33 @@
                 font-size: 1.7em;
                 line-spacing: 1.2em;
             }
+
+            .dhocnet-main-header {
+                display: block;
+                margin: 0;
+                padding: 0;
+                background-color: #04060D;
+            }
+
+            .dhocnet-main-header header {
+                text-align: left;
+            }
+
+            .dhocnet-main-header header a, .dhocnet-main-header header a:hover, .dhocnet-main-header header a:visited {
+                font-size: 1.1em;
+                margin: 0;
+                padding: 13px;
+                color: #00A9FF;
+                text-decoration: none;
+                font-weight: bold;
+            }
         </style>
     </head>
 
     <body>
         <div class="w3-container w3-left" id="dhocnet-main-header">
             <header>
-                <h1>
-                    <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
-                </h1>
+                <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
             </header>
         </div>
 
