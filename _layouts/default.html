@@ -31,14 +31,13 @@
                 border-style: none none dashed none;
             }
 
-            #dhocnet-main-header header {
-                clear: both;
+            #dhocnet-main-header #header {
                 float: left;
                 margin: 0;
                 padding: 0;
             }
 
-            #dhocnet-main-header header a, #dhocnet-main-header header a:hover, #dhocnet-main-header header a:visited {
+            #dhocnet-main-header #header a, #dhocnet-main-header #header a:hover, #dhocnet-main-header #header a:visited {
                 font-size: 0.7em;
                 margin: 0;
                 padding: 13px;
@@ -47,15 +46,14 @@
                 font-weight: bold;
             }
 
-            #dhocnet-main-header navigations {
-                clear: both;
+            #dhocnet-main-header #navigations {
                 float: right;
                 margin: 0;
                 padding: 0;
             }
 
-            #dhocnet-main-header navigations a {
-                font-size: 0,7em;
+            #dhocnet-main-header #navigations a {
+                font-size: 0.7em;
                 font-weight: bold;
                 color: #0fd5db;
                 text-decoration: none;
@@ -63,7 +61,7 @@
                 padding: 5px;
             }
 
-            #dhocnet-main-header navigations a:hover {
+            #dhocnet-main-header #navigations a:hover {
                 color: #dbd80f;
                 text-decoration: none;
             }
@@ -81,12 +79,12 @@
     </head>
 
     <body>
-        <div class="w3-container w3-left" id="dhocnet-main-header">
-            <header>
+        <div id="dhocnet-main-header" style="gap:8px;grid-template-columns:repeat(2,minmax(auto,1fr));">
+            <div id="header">
                 <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
             </header>
 
-            <navigations>
+            <div id="navigations">
                 <a href="https://dhocnet.work" title="DHOCNETwork Main Site">DHOCNET</a>
                 <a href="https://haplaycomputer.com" title="HaPlay Computer Site">HaPlay Computer</a>
                 <a href="/about" title="About DHOCNETwork HUB">About</a>
