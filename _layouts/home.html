@@ -66,13 +66,21 @@ layout: default
 <p>&nbsp;</p>
   <!-- Panel Post -->
   <section class="post-panel">
-    <h2 style="font-weight: bold;">Last Log:</h2>
-    <ul>
-      {% for post in site.posts limit:2 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <p>{{ post.excerpt }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+    <h2 style="font-weight: bold;">Last Journal:</h2>
+    {% for post in site.posts limit:10 %} 
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+        <p>
+            {{ post.content | strip_html | truncatewords:25 }}
+        </p> 
+    {% endfor %} 
+    
+    <div class="pagination"> 
+        {% if paginator.previous_page %} 
+          <a href="{{ paginator.previous_page_path }}">Newer Posts</a> 
+        {% endif %} 
+      
+        {% if paginator.next_page %} 
+            <a href="{{ paginator.next_page_path }}">Older Posts</a> 
+        {% endif %} 
+      </div>
   </section>
