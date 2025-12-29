@@ -37,6 +37,27 @@
                 font-weight: bold;
             }
 
+            #dhocnet-main-header navigations {
+                float: right;
+                margin: 0;
+                padding: 0;
+            }
+
+            #dhocnet-main-header navigations a {
+                font-size: 1.1em;
+                font-weight: bold;
+                color: #0fd5db;
+                text-decoration: none;
+                border-style: dashed;
+                margin: 0;
+                padding: 5px;
+            }
+
+            #dhocnet-main-header navigations a:hover {
+                color: #dbd80f;
+                text-decoration: none;
+            }
+
             @media (max-width: 768px) {
                 body {
                     padding: 0 1.5%;                 
@@ -54,6 +75,12 @@
             <header>
                 <a href="{{ "/" | relative_url }}">DHOCNETwork HUB</a>
             </header>
+
+            <navigations>
+                <a href="https://dhocnet.work" title="DHOCNETwork Main Site">DHOCNET</a>
+                <a href="https://haplaycomputer.com" title="HaPlay Computer Site">HaPlay Computer</a>
+                <a href="/about" title="About DHOCNETwork HUB">About</a>
+            </navigations>
         </div>
 
         <div class="w3-container w3-margin" id="dhocnet-main-content">
