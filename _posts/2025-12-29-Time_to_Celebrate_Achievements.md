@@ -6,12 +6,12 @@ date: 2025-12-29
 
 Today is the last month and the last week of 2025.
 
-For almost a year, **dhocnet** has been focused on developing an *upcycle* project called **HaPlay Computer**. We have truly spent all our resources in between our busy schedules to redesign smartphones and STBs that have been abandoned simply because they no longer receive software updates from vendors so that they can be productive again, useful again, and not become e-waste.
+For almost a year, [dhocnet](https://dhocnet.work) has been focused on developing an *upcycle* project called [HaPlay Computer](https://haplaycomputer.com). We have truly spent all our resources in between our busy schedules to redesign smartphones and STBs that have been abandoned simply because they no longer receive software updates from vendors so that they can be productive again, useful again, and not become e-waste.
 
 During this journey, we finally gained a little understanding of what consumer electronics are suitable for reuse, what features should be added and what software is good to include.
 
-In addition to thinking about hardware and design issues, we are also working on fulfilling documentation and user guides so that the movement of the **HaPlay Computer** project can be followed by many parties so that it shows a real impact.
+In addition to thinking about hardware and design issues, we are also working on fulfilling documentation and user guides so that the movement of the [HaPlay Computer](https://haplaycomputer.com) project can be followed by many parties so that it shows a real impact.
 
-Until now, we, **dhocnet**, are still continuing to develop the **HaPlay Computer** project so that the products created can fulfill at least one need and are comfortable to use for the long term.
+Until now, we, [dhocnet](https://dhocnet.work), are still continuing to develop and improve the [HaPlay Computer](https://haplaycomputer.com) project so that the products created can fulfill at least one need and are comfortable to use for the long term.
 
 And while we're still working, we're also preparing to enter the global market next year through the Tindie marketplace with our first flagship product, the *handheld Writerdeck*, which will allow writers to be themselves. With the handheld Writerdeck, writers can write anywhere, anytime, even without a desk, without a quiet space, without isolating themselves. Writers can still mingle, socialize, and continue writing at the same time.
