@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: posts
 title: "Time to Celebrate Achievements!" 
 date: 2025-12-29 
 ---
