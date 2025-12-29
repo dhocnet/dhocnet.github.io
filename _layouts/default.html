@@ -15,18 +15,23 @@
                 background-color: #131621;
                 color: #d9d3bd;
                 margin: 0;
-                padding: 0 9%;
+                padding: 0;
                 font-family: "Courier Prime";
                 font-size: 1.7em;
                 line-height: 1.1em;
                 text-align: justify;
             }
 
-            body a {
+            #dhocnet-content {
+                margin: 0;
+                padding: 0 9%;
+            }
+
+            #dhocnet-content a {
                 font-size: 1.7em;
             }
 
-            body h1, body h2, body h3 {
+            #dhocnet-content h1, #dhocnet-content h2, #dhocnet-content h3 {
                 font-family: "Times New Roman";
                 color: #cdcf74;
                 line-height: 1.5em;
@@ -34,12 +39,12 @@
 
             #dhocnet-main-header {
                 width: 100%;
-                height: 37px;
+                height: 35px;
                 display: block;
                 margin: 0;
                 padding: 0;
                 background-color: #04060D;
-                border-style: none none dashed none;
+                border-bottom: 2px dashed #fff;
             }
 
             #dhocnet-main-header #header {
@@ -60,7 +65,7 @@
             #dhocnet-main-header #navigations {
                 float: right;
                 margin: 0;
-                padding: 0 7px 0 0;
+                padding-right: 7px;
             }
 
             #dhocnet-main-header #navigations a {
@@ -74,10 +79,12 @@
 
             #dhocnet-main-header #navigations a:hover {
                 color: #dbd80f;
+                text-decoration: none;
             }
 
             #dhocnet-main-header #navigations a:visited {
                 color: #f57f0a;
+                text-decoration: none;
             }
 
             .post-panel big {
@@ -85,8 +92,8 @@
             }
 
             @media (max-width: 768px) {
-                body {
-                    padding: 0 1.5%;                 
+                #dhocnet-content {
+                    padding: 0 1%;                 
                 }
                 nav ul {
                     flex-direction: column;
@@ -109,12 +116,13 @@
             </navigations>
         </div>
 
-        <div class="w3-container w3-margin" id="dhocnet-main-content">
-            <main>
-                {{ content }}
-            </main>
+        <div id="dhocnet-content">
+            <div class="w3-container w3-margin" id="dhocnet-main-content">
+                <main>
+                    {{ content }}
+                </main>
+            </div>
         </div>
-
         <div class="w3-container w3-center" id="dhocnet-footer">
             <footer>
                 <p>
