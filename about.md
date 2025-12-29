@@ -1,13 +1,12 @@
 --- 
 layout: pages
-title: "About DHOCNETwork HUB on GitHub"
+title: "About DHOCNETwork HUB"
 permalink: /about/ 
 ---
 
-**DHOCNETwork HUB** is a portal connecting all content released on all channels managed by **DHOCNETwork**.
+DHOCNETwork HUB is a portal designed to unify all content published across various sources managed by DHOCNETwork.
 
-Here, we include brief descriptions and links to content locations from various media sources, such as blogs, project sites, and YouTube, packaged into a weekly journal.
-
-The DHOCNETwork HUB weekly journal is intended solely to centralize all released articles and videos for easy access in one place, minimizing the chance of followers missing out on the latest information.
+DHOCNETwork HUB summarizes all content in a weekly journal format, containing a brief description and a link to the original content source. This ensures that followers stay informed about information published across multiple sources, including blog articles and YouTube videos.
 
 *- We use Google translator engine to translate the language in the journal from Indonesian to English.*{: .w3-serif}
+
