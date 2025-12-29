@@ -4,7 +4,7 @@ title: About
 permalink: /about/ 
 ---
 
-# About DHOCNETwork HUB on GitHub{: .w3-center style="border-bottom: 2px dashed #cdcf74;" }
+# About DHOCNETwork HUB on GitHub {: .w3-center style="border-bottom: 2px dashed #cdcf74;" }
 
 **DHOCNETwork HUB** is a portal connecting all content released on all channels managed by **DHOCNETwork**.
 
@@ -14,4 +14,5 @@ The DHOCNETwork HUB weekly journal is intended solely to centralize all released
 
 *- We use Google translator engine to translate the language in the journal from Indonesian to English.*{: .w3-serif}
 
-[Go Back Home](/){: .w3-center style="text-decoration: underline; font-size: 1.9em;" }
+[Go Back Home](/){: .w3-center style="text-decoration: underline; font-size: 1.3em;" }
+
