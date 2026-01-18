@@ -30,7 +30,7 @@ As an upcycler, some things may not require a complete overhaul. For example, if
 
 For minimalist tech enthusiasts, the latest technology isn't an absolute must, as the newest isn't necessarily the most productive. This video explores the old technology that will become the new PDAs in 2026. [Watch the video: New PDAs from Old Technology in 2026](https://youtu.be/4xBfTkCWheA?si=wmwwTAn-XTMThqjo).
 
-Abi Word is a text processing application with comprehensive features yet a slim size, making it quite lightweight. For HaPlay GO Zero users, you can use Abi Word as a powerful word processor for writing. Here's how to install Abi Word on HaPlay GO Zero.
+Abi Word is a text processing application with comprehensive features yet a slim size, making it quite lightweight. For HaPlay GO Zero users, you can use Abi Word as a powerful word processor for writing. [Here's how to install Abi Word on HaPlay GO Zero](https://youtu.be/2AcgCXurgf4?si=AhD89-XUsxmuFI-8).
 
 As a form of support, DHOCNET Store has released a new video containing a step-by-step guide on how to integrate GitHub with Markor Editor using GitSync, demonstrated using HaPlay Typopad. [Watch the video here](https://youtu.be/t5wZ8MLpsXk?si=JPGoWhSqqjziuCvL).
 
